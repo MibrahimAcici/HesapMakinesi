@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         btnSifirla.setOnClickListener { clear() }
         btnEsittir.setOnClickListener { calculate() }
     }}
-    
+
     var operator = false
 
     private fun appendOnClick (isNumber:Boolean,inputValue: String){

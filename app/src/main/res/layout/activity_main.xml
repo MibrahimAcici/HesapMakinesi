@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/colorEdittext">
     <EditText
         android:id="@+id/tv_input"
         android:layout_width="match_parent"
@@ -47,12 +48,11 @@
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sayiGoster">
+        app:layout_constraintTop_toBottomOf="@+id/tv_output">
 
         <TableRow
             android:layout_width="match_parent"
